@@ -4,7 +4,6 @@ const latitudeEl = document.querySelector('.lat');
 const errorEl = document.querySelector('.error');
 
 const success = result => {
-  console.log(result);
   const altitude = result.coords.altitude;
   const latitude = result.coords.latitude;
   const longitude = result.coords.longitude;
